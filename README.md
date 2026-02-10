@@ -1,4 +1,4 @@
-# ⠋⠗⠁⠊⠑ Braille Vision
+# ⠃⠗⠁⠊⠇⠇⠑ Braille Vision
 
 <div align="center">
 
