@@ -100,27 +100,50 @@ This dual-mode approach makes Braille Vision suitable for:
 ```
 braille-vision/
 │
-├── braille_cli.py              # Command-line interface version
-├── braille_gui.py              # Tkinter GUI version (source code)
-├── requirements.txt            # Python dependencies
-├── README.md                   # This documentation file
+├── braille_cli.py              # Command-line interface script
+├── braille_gui.py              # GUI Application source code (Tkinter)
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
 │
-├── dist/                       # Standalone executable (Windows)
-│   └── braille_gui.exe         # GUI application (no Python required)
+├── dist/                       # Executable Version
+│   └── braille_gui.exe         # Standalone Windows App (No Python needed)
 │
-├── examples/                   # Sample files for testing
-│   ├── screenshots/            # Application screenshots
-│   │   ├── gui_preview.png
-│   │   └── output_files.png
-│   ├── sample_english.pdf      # Sample English PDF
-│   ├── sample_arabic.pdf       # Sample Arabic PDF
-│   ├── sample_mixed.pdf        # Sample mixed language PDF
-│   └── sample_image.png        # Sample image for OCR
+├── assets/                     # Project assets
+│   └── screenshots/            # Images used in README
+│       ├── main_interface.png
+│       └── conversion_demo.png
 │
-└── outputs/                    # Default output directory (auto-created)
-    ├── document_braille.txt
-    ├── document_normal.docx
-    └── document_braille.docx
+├── examples/                   # 🧪 Test Files & Expected Results
+│   │
+│   ├── inputs/                 # 1. Source files to test the app
+│   │   ├── sample_english.pdf      # English text PDF
+│   │   ├── sample_arabic.pdf       # Arabic text PDF
+│   │   ├── sample_mixed.pdf        # Mixed (Ar/En) PDF
+│   │   └── sample_image.png        # Image for OCR testing
+│   │
+│   └── outputs/                # 2. Generated results (3 files per input)
+│       ├── from_english/           # Result of converting sample_english.pdf
+│       │   ├── sample_english_braille.txt
+│       │   ├── sample_english_normal.docx
+│       │   └── sample_english_braille.docx
+│       │
+│       ├── from_arabic/            # Result of converting sample_arabic.pdf
+│       │   ├── sample_arabic_braille.txt
+│       │   ├── sample_arabic_normal.docx
+│       │   └── sample_arabic_braille.docx
+│       │
+│       ├── from_mixed/             # Result of converting sample_mixed.pdf
+│       │   ├── sample_mixed_braille.txt
+│       │   ├── sample_mixed_normal.docx
+│       │   └── sample_mixed_braille.docx
+│       │
+│       └── from_image/             # Result of converting sample_image.png
+│           ├── sample_image_braille.txt
+│           ├── sample_image_normal.docx
+│           └── sample_image_braille.docx
+│
+└── output/                     # Default folder where user files are saved
+    └── (Empty by default)
 ```
 
 ### File Descriptions
