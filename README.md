@@ -108,10 +108,9 @@ braille-vision/
 ├── dist/                       # Executable Version
 │   └── braille_gui.exe         # Standalone Windows App 
 │
-├── assets/                     # Project assets
-│   └── screenshots/            # Images used in README
-│       ├── main_interface.png
-│       └── conversion_demo.png
+├── screenshots/                     # Project assets
+│   ├── main_interface.png           # Images used in README
+│   └── conversion_demo.png
 │
 └── examples/                   # 🧪 Test Files & Expected Results
     │
