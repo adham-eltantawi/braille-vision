@@ -106,44 +106,42 @@ braille-vision/
 ├── README.md                   # Project documentation
 │
 ├── dist/                       # Executable Version
-│   └── braille_gui.exe         # Standalone Windows App (No Python needed)
+│   └── braille_gui.exe         # Standalone Windows App 
 │
 ├── assets/                     # Project assets
 │   └── screenshots/            # Images used in README
 │       ├── main_interface.png
 │       └── conversion_demo.png
 │
-├── examples/                   # 🧪 Test Files & Expected Results
-│   │
-│   ├── inputs/                 # 1. Source files to test the app
-│   │   ├── sample_english.pdf      # English text PDF
-│   │   ├── sample_arabic.pdf       # Arabic text PDF
-│   │   ├── sample_mixed.pdf        # Mixed (Ar/En) PDF
-│   │   └── sample_image.png        # Image for OCR testing
-│   │
-│   └── outputs/                # 2. Generated results (3 files per input)
-│       ├── from_english/           # Result of converting sample_english.pdf
-│       │   ├── sample_english_braille.txt
-│       │   ├── sample_english_normal.docx
-│       │   └── sample_english_braille.docx
-│       │
-│       ├── from_arabic/            # Result of converting sample_arabic.pdf
-│       │   ├── sample_arabic_braille.txt
-│       │   ├── sample_arabic_normal.docx
-│       │   └── sample_arabic_braille.docx
-│       │
-│       ├── from_mixed/             # Result of converting sample_mixed.pdf
-│       │   ├── sample_mixed_braille.txt
-│       │   ├── sample_mixed_normal.docx
-│       │   └── sample_mixed_braille.docx
-│       │
-│       └── from_image/             # Result of converting sample_image.png
-│           ├── sample_image_braille.txt
-│           ├── sample_image_normal.docx
-│           └── sample_image_braille.docx
-│
-└── output/                     # Default folder where user files are saved
-    └── (Empty by default)
+└── examples/                   # 🧪 Test Files & Expected Results
+    │
+    ├── inputs/                 # 1. Source files to test the app
+    │   ├── sample_english.pdf      # English text PDF
+    │   ├── sample_arabic.pdf       # Arabic text PDF
+    │   ├── sample_mixed.pdf        # Mixed (Ar/En) PDF
+    │   └── sample_image.png        # Image for OCR testing
+    │
+    └── outputs/                # 2. Generated results (3 files per input)
+        ├── from_english/           # Result of converting sample_english.pdf
+        │   ├── sample_english_braille.txt
+        │   ├── sample_english_normal.docx
+        │   └── sample_english_braille.docx
+        │
+        ├── from_arabic/            # Result of converting sample_arabic.pdf
+        │   ├── sample_arabic_braille.txt
+        │   ├── sample_arabic_normal.docx
+        │   └── sample_arabic_braille.docx
+        │
+        ├── from_mixed/             # Result of converting sample_mixed.pdf
+        │   ├── sample_mixed_braille.txt
+        │   ├── sample_mixed_normal.docx
+        │   └── sample_mixed_braille.docx
+        │
+        └── from_image/             # Result of converting sample_image.png
+            ├── sample_image_braille.txt
+            ├── sample_image_normal.docx
+            └── sample_image_braille.docx
+
 ```
 
 ### File Descriptions
